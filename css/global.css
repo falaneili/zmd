@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "微软雅黑", Arial;
+	-webkit-text-size-adjust: none;
+	min-width: 1200px;
+}
+body>*{
+	font-family: "微软雅黑", Arial;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+img {
+	border: 0;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.tc {
+	text-align: center;
+}
+
+.tl {
+	text-align: left;
+}
+
+.tr {
+	text-align: right;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.clearfix {
+	clear: both;
+}
+input, textarea {
+	outline: none;
+	background: none;
+	border: none;
+}
+textarea {
+	width: 100%;
+}
+figure {
+	margin: 0;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	outline: none;
+}
+.container{ 
+margin: 0 auto;
+width: 1200px;
+}
+.tbox {
+	width: 60px;
+	float: right;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+.tbox #gotop {
+	width: 60px;
+	height: 60px;
+	background: url(../images/icons.png) no-repeat 0 0;
+	display: block;
+}
